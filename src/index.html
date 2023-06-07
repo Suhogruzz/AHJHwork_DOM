@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>El Goblino</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-menu">
+            <button id="menu-call">МЕНЮ</button>
+        </nav>
+    </header>
+    <main>
+        <div class="playing-field-container">
+            <div class="playing-field"></div>
+        </div>
+    </main>
+    <div class="menu-container hidden">
+        <div class="menu">
+            <div class="menu-title">EL GOBLINO</div>
+            <div class="menu-buttons">
+                <button>Обычная игра</button>
+                <button>Игра на скорость</button>
+            </div>
+        </div>
+    </div>
+    <div class="high-score-container hidden">
+        <div class="high-score"></div>
+        <button id="high-score-ok"></button>
+    </div>
 </body>
 </html>
