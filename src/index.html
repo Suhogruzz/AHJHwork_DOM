@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>El Goblino</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-menu">
-            <button id="menu-call">МЕНЮ</button>
-        </nav>
-    </header>
     <main>
         <div class="playing-field-container">
-            <div class="playing-field"></div>
-        </div>
-    </main>
-    <div class="menu-container hidden">
-        <div class="menu">
-            <div class="menu-title">EL GOBLINO</div>
-            <div class="menu-buttons">
-                <button>Обычная игра</button>
-                <button>Игра на скорость</button>
+            <div class="playing-field-score">0</div>
+            <div class="playing-field">
+                <div class="field" data-count="1"></div>
+                <div class="field" data-count="2"></div>
+                <div class="field" data-count="3"></div>
+                <div class="field" data-count="4"></div>
+                <div class="field" data-count="5"></div>
+                <div class="field" data-count="6"></div>
+                <div class="field" data-count="7"></div>
+                <div class="field" data-count="8"></div>
+                <div class="field" data-count="9"></div>
+                <div class="field" data-count="10"></div>
+                <div class="field" data-count="11"></div>
+                <div class="field" data-count="12"></div>
+                <div class="field" data-count="13"></div>
+                <div class="field" data-count="14"></div>
+                <div class="field" data-count="15"></div>
+                <div class="field" data-count="16"></div>
             </div>
         </div>
-    </div>
-    <div class="high-score-container hidden">
-        <div class="high-score"></div>
-        <button id="high-score-ok"></button>
+    </main>
+    <div class="start-menu-container">
+        <div class="start-menu">
+            <div class="start-menu-logo">El goblino</div>
+            <button type="button" class="start" id="start">Начать игру</button>
+        </div>
     </div>
 </body>
 </html>
